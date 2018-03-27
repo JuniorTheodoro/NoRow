@@ -163,3 +163,12 @@ section a{
 	color: #ffffff;
 	text-decoration: none;
 }
+select#senha{
+	position: absolute;
+	margin: 50px 1140px;
+	border: 1px solid #343235;
+	padding: 5px;
+	padding-right: 13px;
+	padding-left: 13px;
+	font-size: 15px;
+}
