@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<meta charset="utf-8" lang="pt-br">
-	<link rel="stylesheet" type="text/css" href="_css/
-	estilo.css">
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+	<script language="javascript" src="_javascript/funcoes.js"></script>
 	<title>No FILA</title>
+
 </head>
 <body>
 	<header>
-		<a href="index.html"><img id="logotipo" src="_imagens/logotipo.png"></a>
+
+		<a href="index.html"><img id="logotipo" src="_imagens/logotipo.png">
+		</a>
+
 		<nav id="menu">
+
 			<div id="telefone">
 				<a href="tel:+5531995262845">31 9 95262845</a>
 			</div>
@@ -25,7 +31,9 @@
 			<div id="aplicativo">
 				<a href="aplicativo.html">BAIXE O APLICATIVO</a>
 			</div>
+
 		<h1>MENU PRINCIPAL</h1>
+
 		<ul>
 			<a href="index.html"><li id="menu">HOME</li></a>
 			<a href="gerarsenha.html"><li id="menu">GERAR SENHA</li></a>
@@ -35,18 +43,50 @@
 			<a href="faleconosco.html"><li id="menu">FALE CONOSCO</li></a>
 		</ul>
 		</nav>
+
 		<a href="login.html"><img id="login" src="_imagens/iconelogin.png"></a>
+
 	</header>
 	<section>
+
 		<h1>GERE AQUI SUA SENHA</h1>
 		<h3 class="alignright">Primeiro escolha o seu Estado:</h3>
-		<select id="senha">
-			<option value=""></option>
-			<option name="esMinas" value="show">Minas Gerais/MG</option>
+		<select id="senha" onchange="optionCheck()">
+			<option selected="selected"></option>
+			<option value="1">Minas Gerais/MG</option>
 			<option value="">Estado 2</option>
 			<option value="">Estado 3</option>
 			<option value="">Estado 4</option>
 		</select>
+
+		<div id="hiddenDiv">
+			<h3 class="alignright">Agora, escolha a cidade:</h3>
+			<select id="senha" onchange="optionCheck()">
+				<option selected="selected"></option>
+				<option value="1">Viçosa/MG</option>
+				<option value="">Cidade 2</option>
+				<option value="">Cidade 3</option>
+				<option value="">Cidade 4</option>
+			</select>
+		</div>
+
+		<div id="hiddenDiv1">
+			<h3 class="alignright">Agora, escolha o Estabelecimento:</h3>
+			<select id="senha" onchange="optionCheck()">
+				<option selected="selected"></option>
+				<option value="1">Estabelecimento 1</option>
+				<option value="1">Estabelecimento 2</option>
+				<option value="1">Estabelecimento 3</option>
+				<option value="1">Estabelecimento 4</option>
+			</select>
+		</div>
+
+		<div id="hiddenDiv2">
+			<ul>
+			<a href=""><li class="senha">VERIFICAR DISPONIBILIDADE</li></a>
+			</ul>
+		</div>
+
 	</section>
 </body>
 </html>

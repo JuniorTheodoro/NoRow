@@ -101,7 +101,7 @@ div#aplicativo a{
 	color: #343235;
 	position: absolute;
 	margin: 10px 1045px;
-	width: 205px;
+	width: 210px;
 	font-size: 16pt;
 }
 div#aplicativo a:hover{
@@ -134,6 +134,16 @@ section h3.alignright{
 	font-size: 14pt;
 	margin: -35px 800px;
 	text-align: right;
+	border-right: 3px solid #ffffff;
+	padding-right: 6px;
+}
+section h3.alignleft{
+	font-family: 'IBMPlexSans-Regular', sans-serif;
+	width: 500px;
+	color: #ffffff;
+	font-size: 14pt;
+	margin: -35px 800px;
+	text-align: left !important;
 	border-right: 3px solid #ffffff;
 	padding-right: 6px;
 }
@@ -256,4 +266,38 @@ input[type=text]{
 	font-size: 12pt;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+div#form{
+	padding: 6px;
+}
+div#hiddenDiv{
+	margin: 90px 0px;
+	visibility: hidden;
+}
+div#hiddenDiv select#senha{
+	margin-left: 1173px;
+}
+div#hiddenDiv1{
+	visibility: hidden;
+}
+div#hiddenDiv1 select#senha{
+	margin-left: 1123px;
+}
+div#hiddenDiv2{
+	visibility: hidden;
+	margin: 30px 100px;
+}
+img#apple-logo{
+	width: 410px;
+	position: absolute;
+	margin-left: 350px;
+	margin-top: 50px; 
+}
+img#android-logo{
+	width: 330px;
+	position: absolute;
+}
+div#plataformas{
+	margin-top: 50px;
+	margin-left: 575px; 
 }
