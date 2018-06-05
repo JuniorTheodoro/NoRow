@@ -191,60 +191,6 @@ select#senha{
 	padding-left: 20px;
 	font-size: 15px;
 }
-div#parceiros:hover{
-	color: #ffffff;
-}
-div#parceiros3{
-	margin: -30px 1060px;
-	background-image: linear-gradient(to bottom, #fbc002, #343235 50%);
-	font-family: 'IBMPlexSans-Regular', sans-serif;
-	color: #343235;
-	text-align: center;
-	border: 1px solid #ffffff;
-	border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
-	width: 240px;
-	height: 370px;
-	position: absolute;
-	padding-top: 10px;
-}
-div#parceiros3:hover{
-	color: #ffffff;
-}
-div#parceiros2{
-	margin: -30px 815px;
-	background-image: linear-gradient(to bottom, #fbc002, #343235 50%);
-	font-family: 'IBMPlexSans-Regular', sans-serif;
-	color: #343235;
-	text-align: center;
-	border: 1px solid #ffffff;
-	border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
-	width: 240px;
-	height: 370px;
-	position: absolute;
-	padding-top: 10px;
-}
-div#parceiros2:hover{
-	color: #ffffff;
-}
-div#parceiros1{
-	margin: -30px 570px;
-	background-image: linear-gradient(to bottom, #fbc002, #343235 50%);
-	font-family: 'IBMPlexSans-Regular', sans-serif;
-	color: #343235;
-	text-align: center;
-	border: 1px solid #ffffff;
-	border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
-	width: 240px;
-	height: 370px;
-	position: absolute;
-	padding-top: 10px;
-}
-div#parceiros1:hover{
-	color: #ffffff;
-}
 div#faleconosco{
 	margin: -35px 800px;
 	font-family: 'IBMPlexSans-Regular', sans-serif;
