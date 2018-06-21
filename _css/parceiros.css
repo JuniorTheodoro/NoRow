@@ -1,11 +1,12 @@
 @charset "UTF-8";
 div#album-fotos{
-	margin-left: 100px !important;
+	margin-left: 580px !important;
+	margin-top: -70px;
 	position: absolute;
 }
 ul#album-fotos{
 	width: 700px;
-	margin: 0 55px;
+	margin: 0;
 	padding: 50px;
 	overflow: hidden;
 	list-style: none;
@@ -19,7 +20,6 @@ ul#album-fotos li{
 	background-color: #ffffff;
 	box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
-
 ul#album-fotos li#parceiro1{
 	background: url('../_imagens/parceiro1.jpg')no-repeat;
 	background-size: 100%;

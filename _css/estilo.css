@@ -191,6 +191,15 @@ select#senha{
 	padding-left: 20px;
 	font-size: 15px;
 }
+select#senha1{
+	position: absolute;
+	margin: 50px 1130px;
+	border: 1px solid #343235;
+	padding: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 15px;
+}
 div#faleconosco{
 	margin: -35px 800px;
 	font-family: 'IBMPlexSans-Regular', sans-serif;
@@ -246,4 +255,9 @@ img#android-logo{
 div#plataformas{
 	margin-top: 50px;
 	margin-left: 575px; 
+}
+img#escalacao{
+	margin-left: 165px;
+	margin-top: 10px;
+	position: absolute;
 }
